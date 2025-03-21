@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #a8e6cf, #56ab2f);
+    color: #2e472e;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav {
+    background: #4caf50;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+    height: 50px;
+}
+
+.cart {
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('background.jpg') no-repeat center/cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.card {
+    background-color: #81c784;
+    color: #2e472e;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.btn-success {
+    background-color: #388e3c;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #1b5e20;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #43a047;
+    border: none;
+}
+
+.cart-container {
+    background: #a8e6cf;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+}
+
+footer {
+    background:#2e472e;
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
